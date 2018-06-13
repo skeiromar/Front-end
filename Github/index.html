@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+    <title>Github Card</title>
+    <script src="node_modules/vue/dist/vue.min.js"></script>
+    <script src="node_modules/axios/dist/axios.min.js"></script>
+
+</head>
+<body>
+    <div id="app">
+        
+            <input v-model="username" type="text" placeholder="Username" />
+            <button v-on:click="search" id="search">Search</button>
+            <div v-if="login">{{login}}</div>
+            
+            
+            
+        
+    </div>
+    
+    
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
